@@ -53,7 +53,7 @@ class Menu {
       //if mouse X&Y is specificallly inside of Control Info box then display relevant info to user
       if (inSquareC()) {
         textSize(18);
-        text("1.Hover or click and hold on specific continents for DEMOGRAPHIC INFO!!\n    Dot Opacity--Population Density(Millions/million-km³)\n    Dot Size--A ratio of that continent's actual size\n    Dot Amount--Determined by the total area of continent(million-km³)", width/2-250, 340);
+        text("1.Hover or click and hold on specific continents for DEMOGRAPHIC INFO!\n    Dot Opacity--Population Density(Millions/million-km³)\n    Dot Size--A ratio of that continent's actual size\n    Dot Amount--Determined by the total area of continent(million-km³)", width/2-250, 340);
         
         text("2.Keypress left or right to CHANGE background", width/2 -250, 427);
         text("3.Keypress up or down arrow to CLEAR background and return to DEFAULT", width/2 -250, 450);
