@@ -13,14 +13,8 @@ class DensityDot{
    dotColor = color(188,97,112);
    this.opacity = opacity;
  }
-  float detect(){
-    mouseDist = dist(x,y,mouseX,mouseY);
-    return mouseDist;
-  }
  void displayDensityDot(){
-   if(mouseDist < w/2){
      fill(dotColor, opacity);
      ellipse(x,y,w,w);
-   }
   }  
 } 
