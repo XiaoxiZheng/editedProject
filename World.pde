@@ -84,6 +84,8 @@ class World {
       displaySmall();
     }
   } 
+  
+  //I can probably write a for loop for this, with the continent objects stored as an array , and 
   void displaySmall() {
     africa.displaySmall();
     asia.displaySmall();

@@ -48,22 +48,20 @@ class Menu {
       rect(45, 140, 65, 65, 10);//draw a box for control info
       rect(45, 340, 65, 65, 10);//draw a box for data details
       textSetup();
-      text("Control\nInfo", 15, 140);//output the texts
-      text("Data\nDetails", 15, 340);
+      text("Control\n  Info", 15, 140);//output the texts
+      text("Over-\n  view", 15, 340);
       //if mouse X&Y is specificallly inside of Control Info box then display relevant info to user
       if (inSquareC()) {
-        textSize(20);
-        text("1.Hover or click and hold on specific continents for DEMOGRAPHIC INFO!!", width/2-250, 340);
-        text("2.Keypress left or right to CHANGE background", width/2 -250, 370);
-        text("3.Keypress up or down arrow to CLEAR background and return to DEFAULT", width/2 -250, 400);
+        textSize(18);
+        text("1.Hover or click and hold on specific continents for DEMOGRAPHIC INFO!!\n    Dot Opacity--Population Density(Millions/million-km³)\n    Dot Size--A ratio of that continent's actual size\n    Dot Amount--Determined by the total area of continent(million-km³)", width/2-250, 340);
+        
+        text("2.Keypress left or right to CHANGE background", width/2 -250, 427);
+        text("3.Keypress up or down arrow to CLEAR background and return to DEFAULT", width/2 -250, 450);
       }
       //else in Data details.
       if (inSquareD()) {
-        textSize(20);
-        text("1.Population density is represented by the density dots.", width/2-250, 340);
-        text("   - Dot Opacity-->Population Density(Millions/million-km³)" , width/2 -250, 370);
-        text("   - Dot Size---->A ratio of that continent's actual size(million-km³)", width/2 -250, 400);
-        text("   - Dot Amount-->Determined by the total area of continent(million-km³)", width/2 -250, 430);
+        textSize(18);
+        text("My project presents a generalized demographic information directly to end users.\nInformation regarding population density, size, and age distribution are presented through\na more visually compelling means. Often demographic information such as these are\npresented in a mundane and static tables. My program strived to give an intuitive impression\nto users about the unbalanced distribution of resources per population density across different\ncontinents, and present the characteristics of a dominating age group of that continent. As we\nknow,these valuable informations are often what drive our social-economic world.", width/2-250, 340);
       }
     }
   }
