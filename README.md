@@ -4,6 +4,7 @@ Xiaoxi'sProject
 ####•	Added a menu class for user navigation purposes.
 
   o	Output relevant information about the data visualized to users, and revealed algorithm and symbolic meanings behind visualization.
+  o There's probably something I can do without hard coding all of the positions in the menu Class....
       
 ####•	Added a tint to the overall visualization.
 
